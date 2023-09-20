@@ -1,0 +1,32 @@
+div p:nth-of-type(2){
+    background-color: red;
+
+}
+div p:only-child{
+    background-color: green;
+}
+
+input:optional{
+    background-color: brown;
+}
+input:required{
+    background-color: purple;
+}
+input:read-only{
+    background-color: palevioletred;
+}
+input:read-write{
+    background-color: pink;
+}
+
+p::first-letter{
+    color:blue
+}
+h3::before{
+    content: i am before;
+    color: blueviolet;
+}
+.h3::after{
+    content: i am before;
+    color: blueviolet;
+}
